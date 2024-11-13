@@ -1,0 +1,38 @@
+[
+  {
+      "name": "Real Madrid",
+      "imgUrl": "https://www.futbolemotion.com/imagesarticulos/198057/grandes/camiseta-adidas-real-madrid-primera-equipacion-2023-2024-mujer-white-0.webp",
+      "price": 100,
+      "available": 4
+  },
+  {
+      "name": "Manchester City",
+      "imgUrl": "https://soccerwearhouse.com/cdn/shop/files/clcwc_f9a803a8-03df-46c3-b14e-950b466ee0d8_600x.png?v=1705365501",
+      "price": 100,
+      "available": 4
+  },
+  {
+      "name": "FC Barcelona",
+      "imgUrl": "https://static1.cdn-subsidesports.com/2/media/catalog/product/cache/38d4094f49a5c2931b615f53f1250097/6/9/69771bd7d40af79ce09735ddfe8b3bce32563b30df58255f5a33328dc01fb2e8.jpeg",
+      "price": 100,
+      "available": 4
+  },
+  {
+      "name": "Liverpool",
+      "imgUrl": "https://static1.cdn-subsidesports.com/2/media/catalog/product/cache/38d4094f49a5c2931b615f53f1250097/f/3/f38d73693d581822bb680016cef1c34e9acc94a73c7f676c73a6e87bc73514f9.jpeg",
+      "price": 100,
+      "available": 4
+  },
+  {
+      "name": "Chelsea",
+      "imgUrl": "https://static1.cdn-subsidesports.com/2/media/catalog/product/cache/38d4094f49a5c2931b615f53f1250097/9/9/99d1cd41d472aedd46185b482f820d2d5707193e9e3932dd9267bb7a3f3cd248.jpeg",
+      "price": 100,
+      "available": 4
+  },
+  {
+    "name": "Manchester United",
+    "imgUrl": "https://static1.cdn-subsidesports.com/2/media/catalog/product/cache/38d4094f49a5c2931b615f53f1250097/0/8/080f0ab9a708b83464a53d8e6402d0a98f577aa805cbd7ff9a466c32a5363147.jpeg",
+    "price": 100,
+    "available": 4
+  }
+]

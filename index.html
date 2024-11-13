@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Real Madrid | Official Store</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png"
+                class="brand-logo" alt="realmadrid">
+            <div class="nav-items">
+                <ul>
+                    <li class="home"><a href="index.html">Home</a></li>
+                </ul>
+                <a href="admin.html"><img
+                        src="https://w7.pngwing.com/pngs/636/819/png-transparent-computer-icons-privacy-policy-admin-icon-copyright-rim-share-icon.png"
+                        alt="admin"></a>
+                <a class="shopping-cart" href="#">
+                    <img src="https://banner2.cleanpng.com/20180426/jxq/kisspng-computer-icons-shopping-cart-shopping-cart-decoration-5ae1d7b8251885.901689401524750264152.jpg"
+                        alt="shopping-cart">
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart"></div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkout">Check Out</button>
+        </div>
+    </div>
+
+    <div class="popup" id="order-popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <p>Bedankt voor uw bestelling!</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="home-container">
+            <img src="images/Untitled design.png" alt="banner" style="width:100%;">
+        </div>
+
+        <div class="jersey" id="product-list">
+            <!-- Producten worden hier ingevoegd door JavaScript -->
+        </div>
+
+
+        <!-- Chatbot Button -->
+        <div class="chatbot-button" onclick="toggleChat()">
+            <span>Chat with us</span>
+        </div>
+
+        <div class="chatbot-window" id="chatWindow">
+            <div class="chatbot-header">
+                <h2>Customer Support</h2>
+                <button onclick="toggleChat()">Close</button>
+            </div>
+            <div class="chatbot-messages" id="chatMessages">
+                <div class="message bot-message">Hello! How can I assist you today?</div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="userInput" placeholder="Type your message..." onkeypress="sendMessage(event)">
+                <button onclick="sendUserMessage()">Send</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        Real madrid &copy; 2024
+    </footer>
+
+</body>
+
+</html>
