@@ -1,1 +1,2 @@
 wikipedia-api==0.5.8
+beautifulsoup4==4.10.0
