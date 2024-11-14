@@ -4,9 +4,9 @@ Basic chatbot to open websites applications and search information.
 
 ## features
 
---**opens websites**
---**opens apps**
---**search on wikipedia**
+--**opens websites.
+--**opens apps.
+--**search on wikipedia.
 
 ## Prerequisites
 
