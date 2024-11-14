@@ -4,9 +4,9 @@ Basic chatbot to open websites applications and search information.
 
 ## features
 
---**opens websites.
---**opens apps.
---**search on wikipedia.
+-**opens websites.
+-**opens apps.
+-**search on wikipedia.
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ Basic chatbot to open websites applications and search information.
 1. Clone the repository:
 
     ```sh
-git@github.com:AramDawara123/Chatbot.git
+    git clone https://github.com/AramDawara123/Chatbot.git
     ```
 
 2. Install the required Python packages:
