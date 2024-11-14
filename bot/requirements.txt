@@ -1,2 +1,1 @@
-requests==2.31.0
 wikipedia-api==0.5.8
